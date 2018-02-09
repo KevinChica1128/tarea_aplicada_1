@@ -68,3 +68,9 @@ x11()
 par(mfrow=c(1,2))
 hist(cadata$Longitud)
 plot(density(cadata$Longitud),main="Densidad de la longitud")
+
+#Estimación y ajuste del modelo:
+Regresion<- lm(cadata$Valor_medio_de_la_casa ~ cadata$Ingreso_medio+cadata$Edad_media_de_la_vivienda+
+               cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares+
+               cadata$Latitud+cadata$Longitud)
+summary(Regresion)
