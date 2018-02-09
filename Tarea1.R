@@ -10,3 +10,11 @@ sample(1:20640,1)
 # Eliminamos las filas que no necesitamos, nos quedamos con las filas desde la 15529 hasta la 16029 #
 cadata<- cadata[-c(1:15528,16029:20640),]
 
+##############################
+#ANALISIS EXPLORATORIO
+x1=c()
+for(i in 1:500){
+  x1=c(x1,cadata[i,1])
+  
+}
+hist(x1)
