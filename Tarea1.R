@@ -27,7 +27,7 @@ for(i in 1:500){
 x11()
 par(mfrow=c(1,2))
 plot(density(x1),main="Densidad del valor medio de la casa",col="darkblue")
-hist(x1,freq = F,col="gray52")
+hist(x1,freq = T,col="gray52")
 curve(dnorm(x, mean(x1), sd(x1)), col = 2, lty = 2, lwd = 2, add=T)
 
 x11()
