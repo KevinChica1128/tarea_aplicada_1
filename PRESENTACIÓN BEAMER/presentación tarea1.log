@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  10 FEB 2018 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  10 FEB 2018 22:13
 entering extended mode
 **"./presentación tarea1.tex"
 ("presentación tarea1.tex"
@@ -1138,6 +1138,9 @@ LaTeX Warning: Label `fig:Densidad' multiply defined.
 
 LaTeX Warning: Label `fig:Densidad' multiply defined.
 
+
+LaTeX Warning: Label `fig:Densidad' multiply defined.
+
 )
 \openout1 = `"presentación tarea1.aux"'.
 
@@ -1333,119 +1336,132 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [3
 
-] <imagenes/1.png, id=103, 1371.1225pt x 727.71875pt>
-File: imagenes/1.png Graphic file (type png)
+] <imagenes/estadisticas.png, id=103, 526.21594pt x 162.6075pt>
+File: imagenes/estadisticas.png Graphic file (type png)
 
-<use imagenes/1.png>
-Package pdftex.def Info: imagenes/1.png used on input line 49.
-(pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
+<use imagenes/estadisticas.png>
+Package pdftex.def Info: imagenes/estadisticas.png used on input line 49.
+(pdftex.def)             Requested size: 284.52756pt x 87.92583pt.
  [4
 
- <./imagenes/1.png>]
-<imagenes/2.png, id=133, 1371.1225pt x 727.71875pt>
-File: imagenes/2.png Graphic file (type png)
- <use imagenes/2.png>
-Package pdftex.def Info: imagenes/2.png used on input line 60.
+ <./imagenes/estadisticas.png>]
+<imagenes/1.png, id=134, 1371.1225pt x 727.71875pt>
+File: imagenes/1.png Graphic file (type png)
+ <use imagenes/1.png>
+Package pdftex.def Info: imagenes/1.png used on input line 59.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \end{frame}
+l.59 \end{frame}
                  [5
 
- <./imagenes/2.png>]
-<imagenes/3.png, id=161, 1371.1225pt x 727.71875pt>
-File: imagenes/3.png Graphic file (type png)
- <use imagenes/3.png>
-Package pdftex.def Info: imagenes/3.png used on input line 71.
+ <./imagenes/1.png>]
+<imagenes/2.png, id=162, 1371.1225pt x 727.71875pt>
+File: imagenes/2.png Graphic file (type png)
+ <use imagenes/2.png>
+Package pdftex.def Info: imagenes/2.png used on input line 70.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 \end{frame}
+l.70 \end{frame}
                  [6
 
- <./imagenes/3.png>]
-<imagenes/4.png, id=189, 1371.1225pt x 727.71875pt>
-File: imagenes/4.png Graphic file (type png)
- <use imagenes/4.png>
-Package pdftex.def Info: imagenes/4.png used on input line 82.
+ <./imagenes/2.png>]
+<imagenes/3.png, id=190, 1371.1225pt x 727.71875pt>
+File: imagenes/3.png Graphic file (type png)
+ <use imagenes/3.png>
+Package pdftex.def Info: imagenes/3.png used on input line 81.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \end{frame}
+l.81 \end{frame}
                  [7
 
- <./imagenes/4.png>]
-<imagenes/5.png, id=218, 1371.1225pt x 727.71875pt>
-File: imagenes/5.png Graphic file (type png)
- <use imagenes/5.png>
-Package pdftex.def Info: imagenes/5.png used on input line 93.
+ <./imagenes/3.png>]
+<imagenes/4.png, id=219, 1371.1225pt x 727.71875pt>
+File: imagenes/4.png Graphic file (type png)
+ <use imagenes/4.png>
+Package pdftex.def Info: imagenes/4.png used on input line 92.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \end{frame}
+l.92 \end{frame}
                  [8
 
- <./imagenes/5.png>]
-<imagenes/6.png, id=246, 1371.1225pt x 727.71875pt>
-File: imagenes/6.png Graphic file (type png)
- <use imagenes/6.png>
-Package pdftex.def Info: imagenes/6.png used on input line 104.
+ <./imagenes/4.png>]
+<imagenes/5.png, id=247, 1371.1225pt x 727.71875pt>
+File: imagenes/5.png Graphic file (type png)
+ <use imagenes/5.png>
+Package pdftex.def Info: imagenes/5.png used on input line 103.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \end{frame}
+l.103 \end{frame}
                   [9
 
- <./imagenes/6.png>]
-<imagenes/7.png, id=274, 1371.1225pt x 727.71875pt>
-File: imagenes/7.png Graphic file (type png)
- <use imagenes/7.png>
-Package pdftex.def Info: imagenes/7.png used on input line 115.
+ <./imagenes/5.png>]
+<imagenes/6.png, id=275, 1371.1225pt x 727.71875pt>
+File: imagenes/6.png Graphic file (type png)
+ <use imagenes/6.png>
+Package pdftex.def Info: imagenes/6.png used on input line 114.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \end{frame}
+l.114 \end{frame}
                   [10
 
- <./imagenes/7.png>]
-<imagenes/8.png, id=302, 1371.1225pt x 727.71875pt>
-File: imagenes/8.png Graphic file (type png)
- <use imagenes/8.png>
-Package pdftex.def Info: imagenes/8.png used on input line 126.
+ <./imagenes/6.png>]
+<imagenes/7.png, id=303, 1371.1225pt x 727.71875pt>
+File: imagenes/7.png Graphic file (type png)
+ <use imagenes/7.png>
+Package pdftex.def Info: imagenes/7.png used on input line 125.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \end{frame}
+l.125 \end{frame}
                   [11
 
- <./imagenes/8.png>]
-<imagenes/9.png, id=330, 1371.1225pt x 727.71875pt>
-File: imagenes/9.png Graphic file (type png)
- <use imagenes/9.png>
-Package pdftex.def Info: imagenes/9.png used on input line 137.
+ <./imagenes/7.png>]
+<imagenes/8.png, id=331, 1371.1225pt x 727.71875pt>
+File: imagenes/8.png Graphic file (type png)
+ <use imagenes/8.png>
+Package pdftex.def Info: imagenes/8.png used on input line 136.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.137 \end{frame}
+l.136 \end{frame}
                   [12
 
- <./imagenes/9.png>] [13
+ <./imagenes/8.png>]
+<imagenes/9.png, id=359, 1371.1225pt x 727.71875pt>
+File: imagenes/9.png Graphic file (type png)
+ <use imagenes/9.png>
+Package pdftex.def Info: imagenes/9.png used on input line 147.
+(pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.147 \end{frame}
+                  [13
+
+ <./imagenes/9.png>] [14
 
 ]
 \tf@nav=\write6
@@ -1457,14 +1473,14 @@ l.137 \end{frame}
 \tf@snm=\write8
 \openout8 = `"presentación tarea1.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  ("presentación tarea1.aux"
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `"presentación tarea1".out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1476,13 +1492,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 17777 strings out of 493334
- 337825 string characters out of 3139234
- 417522 words of memory out of 3000000
- 20865 multiletter control sequences out of 15000+200000
+ 17787 strings out of 493334
+ 338004 string characters out of 3139234
+ 417523 words of memory out of 3000000
+ 20872 multiletter control sequences out of 15000+200000
  5756 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,17n,55p,427b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1490,9 +1506,9 @@ Here is how much of TeX's memory you used:
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on "presentación tarea1.pdf" (13 pages, 218318 bytes).
+Output written on "presentación tarea1.pdf" (14 pages, 233501 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 433 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
