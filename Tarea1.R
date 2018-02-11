@@ -19,16 +19,11 @@ rbind(Valor_medio_de_la_casa=summary(cadata[,1]),Ingreso_medio=summary(cadata[,2
 
 
 #GRÁFICOS:
-x1=c()
-for(i in 1:500){
-  x1=c(x1,cadata[i,1])
-  
-}
 x11()
 par(mfrow=c(1,2))
-plot(density(x1),main="Densidad del valor medio de la casa",col="darkblue",ylab = "densidades",xlab = "valor medio de la casa")
-hist(x1,freq = F,col="gray52",main="Histograma del valor medio de la casa",ylab = "densidades",xlab = "valor medio de la casa")
-curve(dnorm(x, mean(x1), sd(x1)), col = 2, lty = 2, lwd = 2, add=T)
+hist(cadata$Valor_medio_de_la_casa,freq = F,col="gray52",main="Histograma del valor medio de la casa",ylab = "densidades",xlab = "valor medio de la casa")
+curve(dnorm(x, mean(cadata$Valor_medio_de_la_casa), sd(cadata$Valor_medio_de_la_casa)), col = 2, lty = 2, lwd = 2, add=T)
+plot(density(cadata$Valor_medio_de_la_casa),main="Densidad del valor medio de la casa",col="darkblue",ylab = "densidades",xlab = "valor medio de la casa")
 
 x11()
 par(mfrow=c(1,2))
