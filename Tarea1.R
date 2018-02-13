@@ -16,7 +16,7 @@ cadata<- cadata[-c(1:15528,16029:20640),]
 rbind(Valor_medio_de_la_casa=summary(cadata[,1]),Ingreso_medio=summary(cadata[,2]),Edad_media=summary(cadata[,3]),
       Total_de_habitaciones=summary(cadata[,4]),Total_de_dormitorios=summary(cadata[,5]),Poblacion=summary(cadata[,6]),
       Hogares=summary(cadata[,7]),Latitud=summary(cadata[,8]),Longitud=summary(cadata[,9]))
-
+sd(cadata$Longitud)
 
 #GRÁFICOS:
 x11()
