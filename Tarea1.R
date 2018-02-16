@@ -99,3 +99,9 @@ Regresion<- lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$E
                cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares+
                cadata$Latitud+cadata$Longitud)
 summary(Regresion)
+
+#MAPAS
+install.packages("ggmap")
+map <- get_map(location = "california, san diego", zoom = 7, maptype = "terrain")
+x11()
+posicion=ggmap(map)+geom_point(data=cadata,aes(x=cadata$Longitud,y=cadata$Latitud))
