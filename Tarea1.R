@@ -13,66 +13,73 @@ cadata<- cadata[-c(1:15528,16029:20640),]
 ##############################
 #ANALISIS EXPLORATORIO
 #ESTADISTICAS DESCRIPTIVAS
-rbind(Valor_medio_de_la_casa=summary(cadata[,1]),Ingreso_medio=summary(cadata[,2]),Edad_media=summary(cadata[,3]),
+rbind(Valor_mediano_de_la_casa=summary(cadata[,1]),Ingreso_mediano=summary(cadata[,2]),Edad_mediana=summary(cadata[,3]),
       Total_de_habitaciones=summary(cadata[,4]),Total_de_dormitorios=summary(cadata[,5]),Poblacion=summary(cadata[,6]),
-      Hogares=summary(cadata[,7]),Latitud=summary(cadata[,8]),Longitud=summary(cadata[,9]))
-sd(cadata$Longitud)
+      Hogares=summary(cadata[,7]))
+sd(cadata$Valor_mediano_de_la_casa)
 
 #GRÁFICOS:
 x11()
 par(mfrow=c(1,2))
-hist(cadata$Valor_medio_de_la_casa,freq = F,col="gray52",main="Histograma del valor medio de la casa",ylab = "densidades",xlab = "valor medio de la casa")
-curve(dnorm(x, mean(cadata$Valor_medio_de_la_casa), sd(cadata$Valor_medio_de_la_casa)), col = 2, lty = 2, lwd = 2, add=T)
-plot(density(cadata$Valor_medio_de_la_casa),main="Densidad del valor medio de la casa",col="darkblue",ylab = "densidades",xlab = "valor medio de la casa")
+hist(cadata$Valor_mediano_de_la_casa,freq = F,col="gray52",main="Histograma del valor mediano de las viviendas",ylab = "densidades",xlab = "valor mediano de la vivienda")
+curve(dnorm(x, mean(cadata$Valor_mediano_de_la_casa), sd(cadata$Valor_mediano_de_la_casa)), col = 2, lty = 2, lwd = 2, add=T)
+plot(density(cadata$Valor_mediano_de_la_casa),main="Densidad del valor mediano de la vivienda",col="darkblue",ylab = "densidades",xlab = "valor mediano de la vivienda")
+x11()
+boxplot(cadata$Valor_mediano_de_la_casa,col="gray52",main="Gráfico de cajas para la variable valor mediano de la vivienda",ylab="valor mediano de la casa")
 
 x11()
 par(mfrow=c(1,2))
-hist(cadata$Ingreso_medio,freq = F,col="gray52",main="Histograma del ingreso medio",ylab = "densidades",xlab = "ingreso medio")
-curve(dnorm(x, mean(cadata$Ingreso_medio), sd(cadata$Ingreso_medio)), col = 2, lty = 2, lwd = 2, add=T)
-plot(density(cadata$Ingreso_medio),main="Densidad del ingreso medio",col="darkblue",ylab = "densidades",xlab = "ingreso medio")
+hist(cadata$Ingreso_mediano,freq = F,col="gray52",main="Histograma del ingreso mediano de la casa",ylab = "densidades",xlab = "Ingreso mediano")
+curve(dnorm(x, mean(cadata$Ingreso_mediano), sd(cadata$Ingreso_mediano)), col = 2, lty = 2, lwd = 2, add=T)
+plot(density(cadata$Ingreso_mediano),main="Densidad del ingreso mediano",col="darkblue",ylab = "densidades",xlab = "Ingreso mediano")
+x11()
+boxplot(cadata$Ingreso_mediano,col="gray52",main="Gráfico de cajas para la variable ingreso mediano de la vivienda",ylab="Ingreso mediano de la casa")
 
 
 x11()
 par(mfrow=c(1,2))
-hist(cadata$Edad_media_de_la_vivienda,freq = F,col="gray52",main="Histograma de la edad media de la casa",ylab = "densidades",xlab = "edad media de la casa")
-curve(dnorm(x, mean(cadata$Edad_media_de_la_vivienda), sd(cadata$Edad_media_de_la_vivienda)), col = 2, lty = 2, lwd = 2, add=T)
-plot(density(cadata$Edad_media_de_la_vivienda),main="Densidad de la edad media de la casa",col="darkblue",ylab = "densidades",xlab = "edad media de la casa")
+hist(cadata$Edad_mediana_de_la_vivienda,freq = F,col="gray52",main="Histograma de la edad mediana de la casa",ylab = "densidades",xlab = "edad mediana de la casa")
+curve(dnorm(x, mean(cadata$Edad_mediana_de_la_vivienda), sd(cadata$Edad_mediana_de_la_vivienda)), col = 2, lty = 2, lwd = 2, add=T)
+plot(density(cadata$Edad_mediana_de_la_vivienda),main="Densidad de la edad mediana de la casa",col="darkblue",ylab = "densidades",xlab = "edad mediana de la casa")
+x11()
+boxplot(cadata$Edad_mediana_de_la_vivienda,col="gray52",main="Gráfico de cajas para la variable edad mediana de la casa",ylab="Edad mediana de la casa")
+
 
 x11()
 par(mfrow=c(1,2))
 hist(cadata$Total_de_habitaciones, freq = F,col="gray52",main="Histograma del total de habitaciones",ylab = "densidades",xlab = "total de habitaciones")
 curve(dnorm(x, mean(cadata$Total_de_habitaciones), sd(cadata$Total_de_habitaciones)), col = 2, lty = 2, lwd = 2, add=T)
 plot(density(cadata$Total_de_habitaciones),main="Densidad del total de habitaciones",col="darkblue",ylab = "densidades",xlab = "total de habitaciones")
+x11()
+boxplot(cadata$Total_de_habitaciones,col="gray52",main="Gráfico de cajas para el total de habitaciones",ylab="total de habitaciones")
+
 
 x11()
 par(mfrow=c(1,2))
 hist(cadata$Total_de_dormitorios, freq = F,col="gray52",main="Histograma del total de dormitorios",ylab = "densidades",xlab = "total de dormitorios")
 curve(dnorm(x, mean(cadata$Total_de_dormitorios), sd(cadata$Total_de_dormitorios)), col = 2, lty = 2, lwd = 2, add=T)
 plot(density(cadata$Total_de_dormitorios),main="Densidad del total de dormitorios",col="darkblue",ylab = "densidades",xlab = "total de dormitorios")
+x11()
+boxplot(cadata$Total_de_dormitorios,col="gray52",main="Gráfico de cajas para el total de dormitorios",ylab="Total de dormitorios")
+
 
 x11()
 par(mfrow=c(1,2))
 hist(cadata$Poblacion,freq = F,col="gray52",main="Histograma de la población",ylab = "densidades",xlab = "poblacion")
 curve(dnorm(x, mean(cadata$Poblacion), sd(cadata$Poblacion)), col = 2, lty = 2, lwd = 2, add=T)
 plot(density(cadata$Poblacion),main="Densidad de la población",col="darkblue",ylab = "densidades",xlab = "poblacion")
+x11()
+boxplot(cadata$Poblacion,col="gray52",main="Gráfico de cajas para la variable población",ylab="Población")
+
 
 x11()
 par(mfrow=c(1,2))
 hist(cadata$Hogares, freq = F,col="gray52",main="Histograma de los hogares",ylab = "densidades",xlab = "hogares")
 curve(dnorm(x, mean(cadata$Hogares), sd(cadata$Hogares)), col = 2, lty = 2, lwd = 2, add=T)
 plot(density(cadata$Hogares),main="Densidad de los hogares",col="darkblue",ylab = "densidades",xlab = "hogares")
-
 x11()
-par(mfrow=c(1,2))
-hist(cadata$Latitud,freq = F,col="gray52",main="Histograma de la latitud",ylab = "densidades",xlab = "latitud")
-curve(dnorm(x, mean(cadata$Latitud), sd(cadata$Latitud)), col = 2, lty = 2, lwd = 2, add=T)
-plot(density(cadata$Latitud),main="Densidad de la latitud",col="darkblue",ylab = "densidades",xlab = "latitud")
+boxplot(cadata$Hogares,col="gray52",main="Gráfico de cajas para la variable hogares",ylab="Cantidad de hogares")
 
-x11()
-par(mfrow=c(1,2))
-hist(cadata$Longitud, freq = F,col="gray52",main="Histograma de la longitud",ylab = "densidades",xlab = "longitud")
-curve(dnorm(x, mean(cadata$Longitud), sd(cadata$Longitud)), col = 2, lty = 2, lwd = 2, add=T)
-plot(density(cadata$Longitud),main="Densidad de la longitud",col="darkblue",ylab = "densidades",xlab = "longitud")
 
 #Relaciones entre variables explicativas:
 #Población y hogares:
@@ -88,7 +95,7 @@ cor(cadata$Total_de_habitaciones,cadata$Total_de_dormitorios,method='spearman') 
 
 
 #Estimación y ajuste del modelo:
-Regresion<- lm(cadata$Valor_medio_de_la_casa ~ cadata$Ingreso_medio+cadata$Edad_media_de_la_vivienda+
+Regresion<- lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$Edad_mediana_de_la_vivienda+
                cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares+
                cadata$Latitud+cadata$Longitud)
 summary(Regresion)
