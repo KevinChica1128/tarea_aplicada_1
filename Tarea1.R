@@ -105,3 +105,7 @@ install.packages("ggmap")
 map <- get_map(location = "california, san diego", zoom = 7, maptype = "terrain")
 x11()
 posicion=ggmap(map)+geom_point(data=cadata,aes(x=cadata$Longitud,y=cadata$Latitud))
+
+#Selección de variables:
+install.packages("MASS")
+step()
