@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  16 FEB 2018 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  17 FEB 2018 16:59
 entering extended mode
 **"./presentación tarea1.tex"
 ("presentación tarea1.tex"
@@ -1168,6 +1168,15 @@ LaTeX Warning: Label `fig:Densidad' multiply defined.
 
 LaTeX Warning: Label `fig:Densidad' multiply defined.
 
+
+LaTeX Warning: Label `fig:Densidad' multiply defined.
+
+
+LaTeX Warning: Label `fig:Densidad' multiply defined.
+
+
+LaTeX Warning: Label `fig:Densidad' multiply defined.
+
 )
 \openout1 = `"presentación tarea1.aux"'.
 
@@ -1613,58 +1622,105 @@ Overfull \vbox (3.52144pt too high) detected at line 227
 [21
 
  <./imagenes/sandiego.png (PNG copy)>]
-<imagenes/10.png, id=612, 1371.1225pt x 727.71875pt>
-File: imagenes/10.png Graphic file (type png)
- <use imagenes/10.png>
-Package pdftex.def Info: imagenes/10.png used on input line 241.
+<imagenes/correlacion.png, id=612, 514.92375pt x 115.18031pt>
+File: imagenes/correlacion.png Graphic file (type png)
+
+<use imagenes/correlacion.png>
+Package pdftex.def Info: imagenes/correlacion.png used on input line 240.
+(pdftex.def)             Requested size: 318.67078pt x 71.28273pt.
+
+Overfull \hbox (1.47493pt too wide) in paragraph at lines 240--240
+[] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.240 \end{frame}
+                  [22
+
+ <./imagenes/correlacion.png>]
+<imagenes/19.png, id=640, 1371.1225pt x 727.71875pt>
+File: imagenes/19.png Graphic file (type png)
+ <use imagenes/19.png>
+Package pdftex.def Info: imagenes/19.png used on input line 254.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.241 \end{frame}
-                  [22
+l.254 \end{frame}
+                 
+Overfull \vbox (0.98505pt too high) detected at line 254
+ []
 
- <./imagenes/10.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 249.
+[23
+
+ <./imagenes/19.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 262.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 249.
+LaTeX Font Info:    Try loading font information for U+msb on input line 262.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 249.
+line 262.
 
 (C:\Users\KEVINSTEVEN\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1ma
 thkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [23
+) [24
 
-] <imagenes/11.png, id=668, 1371.1225pt x 727.71875pt>
-File: imagenes/11.png Graphic file (type png)
+] <imagenes/10.png, id=696, 1371.1225pt x 727.71875pt>
+File: imagenes/10.png Graphic file (type png)
 
-<use imagenes/11.png>
-Package pdftex.def Info: imagenes/11.png used on input line 263.
+<use imagenes/10.png>
+Package pdftex.def Info: imagenes/10.png used on input line 276.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.263 \end{frame}
-                  [24
+l.276 \end{frame}
+                  [25
 
- <./imagenes/11.png>] [25
+ <./imagenes/10.png>] [26
 
-] [26
+]
+<imagenes/11.png, id=751, 1371.1225pt x 727.71875pt>
+File: imagenes/11.png Graphic file (type png)
+ <use imagenes/11.png>
+Package pdftex.def Info: imagenes/11.png used on input line 298.
+(pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.298 \end{frame}
+                  [27
 
-] [27
+ <./imagenes/11.png>] [28
 
-] [28
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+]
+[34
+
+] [35
 
 ]
 \tf@nav=\write6
@@ -1676,15 +1732,14 @@ l.263 \end{frame}
 \tf@snm=\write8
 \openout8 = `"presentación tarea1.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
-
-("presentación tarea1.aux"
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
+ ("presentación tarea1.aux"
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
 Package rerunfilecheck Info: File `"presentación tarea1".out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1696,26 +1751,27 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
  ) 
 Here is how much of TeX's memory you used:
- 18002 strings out of 493334
- 342226 string characters out of 3139234
- 417523 words of memory out of 3000000
- 21028 multiletter control sequences out of 15000+200000
+ 18050 strings out of 493334
+ 342803 string characters out of 3139234
+ 418523 words of memory out of 3000000
+ 21060 multiletter control sequences out of 15000+200000
  10696 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,57p,427b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,17n,57p,592b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on "presentación tarea1.pdf" (28 pages, 2125312 bytes).
+c/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb>
+Output written on "presentación tarea1.pdf" (35 pages, 2197862 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1030 PDF objects out of 1200 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -229,6 +229,41 @@
 \begin{frame}
 \frametitle{Posibles relaciones entre las variables explicativas}
 \begin{itemize}
+\item Matriz de correlaciones:
+\begin{figure}[!h]
+       \raggedright
+        \includegraphics[width=11.2cm]{imagenes/correlacion.png}
+        \caption{Matriz de correlaciones entre covariables }
+        \label{fig:Densidad}
+\end{figure}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Posibles relaciones entre las variables explicativas}
+\begin{itemize}
+\item Variables 'Total de dormitorios' y 'Hogares':
+\begin{figure}[!h]
+    \begin{center}
+        \includegraphics[width=10cm]{imagenes/19.png}
+        \caption{Gráfico de puntos entre las variables 'Total de dormitorios' y 'Hogares'}
+        \label{fig:Densidad}
+    \end{center}
+\end{figure}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Posibles relaciones entre las variables explicativas}
+\begin{itemize}
+\item correlación de Pearson: $r=0.9887048$
+\item correlación de Spearman: $\rho=0.9819133$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Posibles relaciones entre las variables explicativas}
+\begin{itemize}
 \item Variables 'Población' y 'Hogares':
 \begin{figure}[!h]
     \begin{center}
@@ -278,7 +313,13 @@
 33230 X_{7}-45080 X_{8}$
 
 ~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{4}=$Total de dormitorios, $X_{5}=$Población, $X_{6}=$Hogares, $X_{7}=$Latitud, $X_{8}=$Longitud.
+\begin{itemize}
+\item $R^2=0.5754$
+\item $R^2_{ajustado}=0.5685$
+\item $CME=\hat{\sigma^2}=6266230788$
+\end{itemize}
 \end{frame}
+
 
 \begin{frame}
 \frametitle{Modelo ajustado e interpretación}
@@ -298,4 +339,55 @@
 \item $\beta_{8}$:por cada unidad que aumente de longitud se disminuye 45080 unidades del valor mediano de la casa.
 \end{itemize}
 \end{frame}
+
+\begin{frame}
+\frametitle{Modelo ajustado con selección de variables}
+~\\ El modelo ajustado, utilizando el método forward para seleccionar variables es:
+~\\ $Y=-587755.25+22415.05 X_{1}+1823.94 X_{2}+30.59 X_{3}-59.62 X_{4}-
+123.27 X_{5}+256.45 X_{6}-
+19522.07 X_{7}$
+
+~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{4}=$Total de dormitorios, $X_{5}=$Población, $X_{6}=$Hogares, $X_{7}=$Latitud.
+\begin{itemize}
+\item $R^2=0.5743$
+\item $R^2_{ajustado}=0.5683$
+\item $CME=\hat{\sigma^2}=6270012635$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Modelo ajustado con selección de variables}
+~\\ El modelo ajustado, utilizando el método backward para seleccionar variables es:
+~\\ $Y=-1922000 +22690 X_{1}+1831 X_{2}+29.72 X_{3}-
+121.9 X_{5}+192.6 X_{6}
+-16910 X_{8}$
+
+~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{5}=$Población, $X_{6}=$Hogares, $X_{8}=$Longitud.
+\begin{itemize}
+\item $R^2=0.5747$
+\item $R^2_{ajustado}=0.5695$
+\item $CME=\hat{\sigma^2}=6251879617$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Modelo ajustado con selección de variables}
+~\\ El modelo ajustado, utilizando el método stepwise para seleccionar variables es:
+~\\ $Y=-593652.6+22992.9 X_{1}+1855.1 X_{2}+29.3 X_{3}
+-120.6 X_{5}+192.4 X_{6}+
+19572.7 X_{7}$
+
+~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{5}=$Población, $X_{6}=$Hogares, $X_{7}=$Latitud.
+\begin{itemize}
+\item $R^2=0.5737$
+\item $R^2_{ajustado}=0.5685$
+\item $CME=\hat{\sigma^2}=6266212125$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusión}
+~\\ Al finalizar nuestra selección de variables, con el fin de ajustar el mejor modelo posible para la variable valor mediano de la casa, comparamos cada uno de los 4 modelos obtenidos (completo, forward, backward, stepwise) con respecto al $R^2_{ajustado}$ y el $CME=\hat{\sigma^2}$. Podemos concluir que el mejor modelo que logramos obtener  para nuestros 500 datos sin hacer transformación de variables, fue el generado por el método de selección "Backward", el cuál nos elimino las variables predictoras $X_{4}:$Total de dormitorios y $X_{7}:$Latitud.
+\end{frame}
+
 \end{document}
