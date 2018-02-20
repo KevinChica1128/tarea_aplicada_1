@@ -123,34 +123,28 @@ install.packages("MASS")
 library("MASS")
 mod0 <- lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano)
 mod8 <- lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$Edad_mediana_de_la_vivienda+
-        cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares+
-        cadata$Latitud+cadata$Longitud)
+        cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares)
 #Hacia adelante:
 mod.forward <- stepAIC(mod0, scope = list(upper = mod8), direction = "forward")
-modeloresultante<-lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano + cadata$Latitud + 
-  cadata$Total_de_dormitorios + cadata$Poblacion + cadata$Edad_mediana_de_la_vivienda + 
-  cadata$Total_de_habitaciones + cadata$Hogares)
+modeloresultante<-lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano + cadata$Edad_mediana_de_la_vivienda+
+  cadata$Total_de_dormitorios + cadata$Poblacion + cadata$Hogares +cadata$Total_de_habitaciones )
 summary(modeloresultante)
 summary(modeloresultante)$sigma^2
 #Hacia atrás:
 mod.backward <- stepAIC(mod8, scope = list(lower = mod0),direction = "backward")
 modeloresultante1<-lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano + cadata$Edad_mediana_de_la_vivienda + 
-                        cadata$Total_de_habitaciones + cadata$Poblacion + cadata$Hogares + 
-                        cadata$Longitud)
+                        cadata$Total_de_habitaciones + cadata$Poblacion + cadata$Hogares )
 summary(modeloresultante1)
 summary(modeloresultante1)$sigma^2
 #Paso a paso:
 mod.step <- stepAIC(mod0, scope = list(upper = mod8),direction = "both")
-modeloresultante2<-lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano + cadata$Latitud + 
+modeloresultante2<-lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+ 
                         cadata$Poblacion + cadata$Edad_mediana_de_la_vivienda + cadata$Total_de_habitaciones + 
                         cadata$Hogares)
 summary(modeloresultante2)
 summary(modeloresultante2)$sigma^2
 
-#Ensayos otros modelos
-RegresionEns<- lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$Total_de_habitaciones+cadata$Hogares)
-summary(RegresionEns)
-summary(RegresionEns)$sigma^2
+
 
 
 

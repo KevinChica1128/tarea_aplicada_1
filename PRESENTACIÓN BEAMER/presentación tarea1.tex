@@ -333,59 +333,46 @@
 \begin{itemize}
 \item $\beta_{5}$:por cada unidad que aumente de población se disminuye 121.66 unidades del valor mediano de la casa.
 \item $\beta_{6}$:por cada unidad que aumente de hogares se aumenta 315.92 unidades del valor mediano de la casa.
-\item $\beta_{7}$:
-\item $\beta_{8}$:
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Modelo ajustado con selección de variables}
-~\\ El modelo ajustado, utilizando el método forward para seleccionar variables es:
-~\\ $Y=-587755.25+22415.05 X_{1}+1823.94 X_{2}+30.59 X_{3}-59.62 X_{4}-
-123.27 X_{5}+256.45 X_{6}-
-19522.07 X_{7}$
-
-~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{4}=$Total de dormitorios, $X_{5}=$Población, $X_{6}=$Hogares, $X_{7}=$Latitud.
-\begin{itemize}
-\item $R^2=0.5743$
-\item $R^2_{ajustado}=0.5683$
-\item $CME=\hat{\sigma^2}=6270012635$
-\end{itemize}
+~\\ El modelo ajustado, utilizando el método forward para seleccionar variables es exactamente el mismo modelo completo, es decir, el método no me elimino ninguna variable.
 \end{frame}
 
 \begin{frame}
 \frametitle{Modelo ajustado con selección de variables}
 ~\\ El modelo ajustado, utilizando el método backward para seleccionar variables es:
-~\\ $Y=-1922000 +22690 X_{1}+1831 X_{2}+29.72 X_{3}-
-121.9 X_{5}+192.6 X_{6}
--16910 X_{8}$
+~\\ $Y=52921.688+24923.244X_{1}+3484.164X_{2}+17.588X_{3}-118.652X_{5}+243.265X_{6}$
 
-~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{5}=$Población, $X_{6}=$Hogares, $X_{8}=$Longitud.
+~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{5}=$Población, $X_{6}=$Hogares.
 \begin{itemize}
-\item $R^2=0.5747$
-\item $R^2_{ajustado}=0.5695$
-\item $CME=\hat{\sigma^2}=6251879617$
+\item $R^2=0.5417$
+\item $R^2_{ajustado}=0.5371$
+\item $CME=\hat{\sigma^2}=6722361839$
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Modelo ajustado con selección de variables}
-~\\ El modelo ajustado, utilizando el método stepwise para seleccionar variables es:
-~\\ $Y=-593652.6+22992.9 X_{1}+1855.1 X_{2}+29.3 X_{3}
--120.6 X_{5}+192.4 X_{6}+
-19572.7 X_{7}$
+~\\ El modelo ajustado, utilizando el método stepwise para seleccionar variables es  exactamente el mismo modelo que ajustamos por el método anterior (backward), es decir, ambos métodos nos eliminan la variable $X_{4}=$Total de dormitorios del modelo completo.
+\end{frame}
 
-~\\ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{5}=$Población, $X_{6}=$Hogares, $X_{7}=$Latitud.
-\begin{itemize}
-\item $R^2=0.5737$
-\item $R^2_{ajustado}=0.5685$
-\item $CME=\hat{\sigma^2}=6266212125$
-\end{itemize}
+\begin{frame}
+\frametitle{Comparación}
+\begin{figure}[!h]
+    \begin{center}
+        \includegraphics[width=10cm]{imagenes/comparacion.png}
+        \caption{Comparacion de los modelos generados con selección de variables}
+        \label{fig:Densidad}
+    \end{center}
+\end{figure}
 \end{frame}
 
 \begin{frame}
 \frametitle{Conclusión}
-~\\ Al finalizar nuestra selección de variables, con el fin de ajustar el mejor modelo posible para la variable valor mediano de la casa, comparamos cada uno de los 4 modelos obtenidos (completo, forward, backward, stepwise) con respecto al $R^2_{ajustado}$ y el $CME=\hat{\sigma^2}$. Podemos concluir que el mejor modelo que logramos obtener  para nuestros 500 datos sin hacer transformación de variables, fue el generado por el método de selección "Backward", el cuál nos elimino las variables predictoras $X_{4}:$Total de dormitorios y $X_{7}:$Latitud.
+~\\ Al finalizar nuestra selección de variables, con el fin de ajustar el mejor modelo posible para la variable valor mediano de la casa, comparamos cada uno de los 4 modelos obtenidos (completo, forward, backward, stepwise) con respecto al $R^2_{ajustado}$ y el $CME=\hat{\sigma^2}$. Podemos concluir que el mejor modelo que logramos obtener  para nuestros 500 datos sin hacer transformación de variables, fue el generado por el método de selección "Backward" y "Stepwise", el cuál nos elimino la variable explicativa $X_{4}:$Total de dormitorios.
 \end{frame}
 
 \end{document}
