@@ -82,8 +82,8 @@ boxplot(cadata$Hogares,col="gray52",main="Gráfico de cajas para la variable hoga
 
 
 #Relaciones entre variables explicativas:
-X = cbind(Ingreso=cadata$Ingreso_mediano,Edad=cadata$Edad_mediana_de_la_vivienda,Habitaciones=cadata$Total_de_habitaciones,
-          Dormitorios=cadata$Total_de_dormitorios,Poblacion=cadata$Poblacion,Hogares=cadata$Hogares)
+X = cbind(Valor_Casa=cadata$Valor_mediano_de_la_casa,Ingreso=cadata$Ingreso_mediano,Edad=cadata$Edad_mediana_de_la_vivienda,Habitaciones=cadata$Total_de_habitaciones,
+          Dormitorios=cadata$Total_de_dormitorios,Poblacion=cadata$Poblacion,Hogares=cadata$Hogares,Latitud=cadata$Latitud,Longitud=cadata$Longitud)
 R = cor(X)
 R
 #Población y hogares:
@@ -108,9 +108,7 @@ cor(cadata$Total_de_dormitorios,cadata$Hogares) #correlación de Pearson
 cor(cadata$Total_de_dormitorios,cadata$Hogares,method='spearman') #Correlación de Spearman
 
 #Estimación y ajuste del modelo:
-Regresion<- lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$Edad_mediana_de_la_vivienda+
-               cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares+
-               cadata$Latitud+cadata$Longitud)
+Regresion<- lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$Edad_mediana_de_la_vivienda+cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares)
 summary(Regresion)
 summary(Regresion)$sigma^2
 
@@ -156,3 +154,5 @@ summary(RegresionEns)$sigma^2
 
 
 
+modelo<-lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$Edad_mediana_de_la_vivienda+cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares)
+summary(modelo)
