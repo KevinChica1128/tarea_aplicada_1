@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  20 FEB 2018 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  20 FEB 2018 18:49
 entering extended mode
 **"./presentación tarea1.tex"
 ("presentación tarea1.tex"
@@ -1728,7 +1728,7 @@ File: imagenes/comparacion.png Graphic file (type png)
 
 <use imagenes/comparacion.png>
 Package pdftex.def Info: imagenes/comparacion.png used on input line 371.
-(pdftex.def)             Requested size: 284.52756pt x 46.91284pt.
+(pdftex.def)             Requested size: 312.9803pt x 51.60422pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -1771,13 +1771,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
  ) 
 Here is how much of TeX's memory you used:
- 18060 strings out of 493334
- 342983 string characters out of 3139234
+ 18052 strings out of 493334
+ 342875 string characters out of 3139234
  418523 words of memory out of 3000000
- 21067 multiletter control sequences out of 15000+200000
+ 21059 multiletter control sequences out of 15000+200000
  10696 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,57p,585b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,17n,57p,595b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
@@ -1786,7 +1786,7 @@ onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb>
-Output written on "presentación tarea1.pdf" (36 pages, 2213597 bytes).
+Output written on "presentación tarea1.pdf" (36 pages, 2204887 bytes).
 PDF statistics:
  1060 PDF objects out of 1200 (max. 8388607)
  74 named destinations out of 1000 (max. 500000)

@@ -28,7 +28,7 @@
 \frametitle{Análisis exploratorio de datos}
 ~\\ Para trabajar con la base de datos denominada 'cadata', generamos un número aleatorio con la ayuda del software R, el cuál nos arrojó el número 15529, por tanto nuestra base de datos final, quedo con las 9 variables (columnas) y con las filas desde la 15529 hasta la 16028.
 
-~\\ El objetivo del estudio es ajustar un modelo de regresión para la variable 'Valor medio de la casa', tomando como variables explicativas las variables 'Ingreso medio','Edad media de la vivienda', 'Total de habitaciones','Total de dormitorios','Población','Hogares','Latitud' y 'Longitud'. 
+~\\ El objetivo del estudio es ajustar un modelo de regresión para la variable 'Valor mediano de las casas', tomando como variables explicativas las variables 'Ingreso mediano','Edad mediana de la vivienda', 'Total de habitaciones','Total de dormitorios','Población' y 'Hogares'. 
 \end{frame}
 
 \begin{frame}
@@ -363,8 +363,8 @@
 \frametitle{Comparación}
 \begin{figure}[!h]
     \begin{center}
-        \includegraphics[width=10cm]{imagenes/comparacion.png}
-        \caption{Comparacion de los modelos generados con selección de variables}
+        \includegraphics[width=11cm]{imagenes/comparacion.png}
+        \caption{Comparación de los modelos generados con selección de variables}
         \label{fig:Densidad}
     \end{center}
 \end{figure}
@@ -372,7 +372,7 @@
 
 \begin{frame}
 \frametitle{Conclusión}
-~\\ Al finalizar nuestra selección de variables, con el fin de ajustar el mejor modelo posible para la variable valor mediano de la casa, comparamos cada uno de los 4 modelos obtenidos (completo, forward, backward, stepwise) con respecto al $R^2_{ajustado}$ y el $CME=\hat{\sigma^2}$. Podemos concluir que el mejor modelo que logramos obtener  para nuestros 500 datos sin hacer transformación de variables, fue el generado por el método de selección "Backward" y "Stepwise", el cuál nos elimino la variable explicativa $X_{4}:$Total de dormitorios.
+~\\ Al finalizar nuestra selección de variables, con el fin de ajustar el mejor modelo posible para la variable valor mediano de la casa, comparamos cada uno de los 4 modelos obtenidos (completo, forward, backward, stepwise) con respecto al $R^2_{ajustado}$ y el $CME=\hat{\sigma^2}$. Podemos concluir que el mejor modelo que logramos obtener  para nuestros 500 datos sin hacer transformación de variables, fue el generado por el método de selección 'Backward'      y 'Stepwise', los cuales nos eliminaron la variable explicativa $X_{4}:$Total de dormitorios.
 \end{frame}
 
 \end{document}

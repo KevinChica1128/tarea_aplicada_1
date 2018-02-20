@@ -145,8 +145,3 @@ summary(modeloresultante2)
 summary(modeloresultante2)$sigma^2
 
 
-
-
-
-modelo<-lm(cadata$Valor_mediano_de_la_casa ~ cadata$Ingreso_mediano+cadata$Edad_mediana_de_la_vivienda+cadata$Total_de_habitaciones+cadata$Total_de_dormitorios+cadata$Poblacion+cadata$Hogares)
-summary(modelo)
