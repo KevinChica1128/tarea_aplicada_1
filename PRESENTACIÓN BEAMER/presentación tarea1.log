@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  23 FEB 2018 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  23 FEB 2018 14:28
 entering extended mode
 **"./presentación tarea1.tex"
 ("presentación tarea1.tex"
@@ -1377,264 +1377,266 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [4
 
-] <imagenes/estadisticas.png, id=131, 621.82312pt x 130.23656pt>
+] [5
+
+] <imagenes/estadisticas.png, id=157, 621.82312pt x 130.23656pt>
 File: imagenes/estadisticas.png Graphic file (type png)
 
 <use imagenes/estadisticas.png>
-Package pdftex.def Info: imagenes/estadisticas.png used on input line 62.
+Package pdftex.def Info: imagenes/estadisticas.png used on input line 67.
 (pdftex.def)             Requested size: 341.43306pt x 71.51108pt.
 
-Overfull \hbox (0.73746pt too wide) in paragraph at lines 62--62
+Overfull \hbox (0.73746pt too wide) in paragraph at lines 67--67
  [] 
  []
 
-[5
+[6
 
  <./imagenes/estadisticas.png>]
-<imagenes/1.png, id=162, 1371.1225pt x 727.71875pt>
+<imagenes/1.png, id=188, 1371.1225pt x 727.71875pt>
 File: imagenes/1.png Graphic file (type png)
  <use imagenes/1.png>
-Package pdftex.def Info: imagenes/1.png used on input line 72.
+Package pdftex.def Info: imagenes/1.png used on input line 77.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \end{frame}
-                 [6
-
- <./imagenes/1.png>]
-<imagenes/12.png, id=190, 1371.1225pt x 727.71875pt>
-File: imagenes/12.png Graphic file (type png)
- <use imagenes/12.png>
-Package pdftex.def Info: imagenes/12.png used on input line 82.
-(pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.82 \end{frame}
+l.77 \end{frame}
                  [7
 
- <./imagenes/12.png>]
-<imagenes/2.png, id=219, 1371.1225pt x 727.71875pt>
-File: imagenes/2.png Graphic file (type png)
- <use imagenes/2.png>
-Package pdftex.def Info: imagenes/2.png used on input line 93.
+ <./imagenes/1.png>]
+<imagenes/12.png, id=217, 1371.1225pt x 727.71875pt>
+File: imagenes/12.png Graphic file (type png)
+ <use imagenes/12.png>
+Package pdftex.def Info: imagenes/12.png used on input line 87.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \end{frame}
+l.87 \end{frame}
                  [8
 
+ <./imagenes/12.png>]
+<imagenes/2.png, id=245, 1371.1225pt x 727.71875pt>
+File: imagenes/2.png Graphic file (type png)
+ <use imagenes/2.png>
+Package pdftex.def Info: imagenes/2.png used on input line 98.
+(pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.98 \end{frame}
+                 [9
+
  <./imagenes/2.png>]
-<imagenes/13.png, id=247, 1371.1225pt x 727.71875pt>
+<imagenes/13.png, id=273, 1371.1225pt x 727.71875pt>
 File: imagenes/13.png Graphic file (type png)
  <use imagenes/13.png>
-Package pdftex.def Info: imagenes/13.png used on input line 103.
+Package pdftex.def Info: imagenes/13.png used on input line 108.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \end{frame}
-                  [9
+l.108 \end{frame}
+                  [10
 
  <./imagenes/13.png>]
-<imagenes/3.png, id=275, 1371.1225pt x 727.71875pt>
+<imagenes/3.png, id=301, 1371.1225pt x 727.71875pt>
 File: imagenes/3.png Graphic file (type png)
  <use imagenes/3.png>
-Package pdftex.def Info: imagenes/3.png used on input line 114.
+Package pdftex.def Info: imagenes/3.png used on input line 119.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \end{frame}
+l.119 \end{frame}
                  
-Overfull \vbox (2.62411pt too high) detected at line 114
+Overfull \vbox (2.62411pt too high) detected at line 119
  []
 
-[10
+[11
 
- <./imagenes/3.png>] <imagenes/14.png, id=303, 1371.1225pt x 727.71875pt>
+ <./imagenes/3.png>] <imagenes/14.png, id=329, 1371.1225pt x 727.71875pt>
 File: imagenes/14.png Graphic file (type png)
 
 <use imagenes/14.png>
-Package pdftex.def Info: imagenes/14.png used on input line 124.
+Package pdftex.def Info: imagenes/14.png used on input line 129.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 \end{frame}
-                  [11
-
- <./imagenes/14.png>]
-<imagenes/4.png, id=331, 1371.1225pt x 727.71875pt>
-File: imagenes/4.png Graphic file (type png)
- <use imagenes/4.png>
-Package pdftex.def Info: imagenes/4.png used on input line 135.
-(pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \end{frame}
+l.129 \end{frame}
                   [12
 
- <./imagenes/4.png>]
-<imagenes/15.png, id=359, 1371.1225pt x 727.71875pt>
-File: imagenes/15.png Graphic file (type png)
- <use imagenes/15.png>
-Package pdftex.def Info: imagenes/15.png used on input line 145.
+ <./imagenes/14.png>]
+<imagenes/4.png, id=357, 1371.1225pt x 727.71875pt>
+File: imagenes/4.png Graphic file (type png)
+ <use imagenes/4.png>
+Package pdftex.def Info: imagenes/4.png used on input line 140.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 \end{frame}
+l.140 \end{frame}
                   [13
 
- <./imagenes/15.png>]
-<imagenes/5.png, id=388, 1371.1225pt x 727.71875pt>
-File: imagenes/5.png Graphic file (type png)
- <use imagenes/5.png>
-Package pdftex.def Info: imagenes/5.png used on input line 156.
+ <./imagenes/4.png>]
+<imagenes/15.png, id=386, 1371.1225pt x 727.71875pt>
+File: imagenes/15.png Graphic file (type png)
+ <use imagenes/15.png>
+Package pdftex.def Info: imagenes/15.png used on input line 150.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \end{frame}
+l.150 \end{frame}
                   [14
 
- <./imagenes/5.png>]
-<imagenes/16.png, id=416, 1371.1225pt x 727.71875pt>
-File: imagenes/16.png Graphic file (type png)
- <use imagenes/16.png>
-Package pdftex.def Info: imagenes/16.png used on input line 166.
+ <./imagenes/15.png>]
+<imagenes/5.png, id=414, 1371.1225pt x 727.71875pt>
+File: imagenes/5.png Graphic file (type png)
+ <use imagenes/5.png>
+Package pdftex.def Info: imagenes/5.png used on input line 161.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.166 \end{frame}
+l.161 \end{frame}
                   [15
 
- <./imagenes/16.png>]
-<imagenes/6.png, id=444, 1371.1225pt x 727.71875pt>
-File: imagenes/6.png Graphic file (type png)
- <use imagenes/6.png>
-Package pdftex.def Info: imagenes/6.png used on input line 176.
+ <./imagenes/5.png>]
+<imagenes/16.png, id=442, 1371.1225pt x 727.71875pt>
+File: imagenes/16.png Graphic file (type png)
+ <use imagenes/16.png>
+Package pdftex.def Info: imagenes/16.png used on input line 171.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \end{frame}
+l.171 \end{frame}
                   [16
 
- <./imagenes/6.png>]
-<imagenes/17.png, id=472, 1371.1225pt x 727.71875pt>
-File: imagenes/17.png Graphic file (type png)
- <use imagenes/17.png>
-Package pdftex.def Info: imagenes/17.png used on input line 186.
+ <./imagenes/16.png>]
+<imagenes/6.png, id=470, 1371.1225pt x 727.71875pt>
+File: imagenes/6.png Graphic file (type png)
+ <use imagenes/6.png>
+Package pdftex.def Info: imagenes/6.png used on input line 181.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.186 \end{frame}
+l.181 \end{frame}
                   [17
 
- <./imagenes/17.png>]
-<imagenes/7.png, id=500, 1371.1225pt x 727.71875pt>
-File: imagenes/7.png Graphic file (type png)
- <use imagenes/7.png>
-Package pdftex.def Info: imagenes/7.png used on input line 197.
+ <./imagenes/6.png>]
+<imagenes/17.png, id=498, 1371.1225pt x 727.71875pt>
+File: imagenes/17.png Graphic file (type png)
+ <use imagenes/17.png>
+Package pdftex.def Info: imagenes/17.png used on input line 191.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.197 \end{frame}
+l.191 \end{frame}
                   [18
 
- <./imagenes/7.png>]
-<imagenes/18.png, id=528, 1371.1225pt x 727.71875pt>
-File: imagenes/18.png Graphic file (type png)
- <use imagenes/18.png>
-Package pdftex.def Info: imagenes/18.png used on input line 207.
+ <./imagenes/17.png>]
+<imagenes/7.png, id=526, 1371.1225pt x 727.71875pt>
+File: imagenes/7.png Graphic file (type png)
+ <use imagenes/7.png>
+Package pdftex.def Info: imagenes/7.png used on input line 202.
 (pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \end{frame}
+l.202 \end{frame}
                   [19
 
+ <./imagenes/7.png>]
+<imagenes/18.png, id=555, 1371.1225pt x 727.71875pt>
+File: imagenes/18.png Graphic file (type png)
+ <use imagenes/18.png>
+Package pdftex.def Info: imagenes/18.png used on input line 212.
+(pdftex.def)             Requested size: 312.9803pt x 166.10593pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.212 \end{frame}
+                  [20
+
  <./imagenes/18.png>]
-<imagenes/california.png, id=557, 854.19125pt x 447.6725pt>
+<imagenes/california.png, id=583, 854.19125pt x 447.6725pt>
 File: imagenes/california.png Graphic file (type png)
 
 <use imagenes/california.png>
-Package pdftex.def Info: imagenes/california.png used on input line 218.
+Package pdftex.def Info: imagenes/california.png used on input line 223.
 (pdftex.def)             Requested size: 312.9803pt x 164.02412pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.218 \end{frame}
-                  [20
+l.223 \end{frame}
+                  [21
 
  <./imagenes/california.png (PNG copy)>]
-<imagenes/sanfransisco.png, id=584, 1445.4pt x 820.06375pt>
+<imagenes/sanfransisco.png, id=610, 1445.4pt x 820.06375pt>
 File: imagenes/sanfransisco.png Graphic file (type png)
 
 <use imagenes/sanfransisco.png>
-Package pdftex.def Info: imagenes/sanfransisco.png used on input line 229.
+Package pdftex.def Info: imagenes/sanfransisco.png used on input line 234.
 (pdftex.def)             Requested size: 312.9803pt x 177.5741pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.229 \end{frame}
+l.234 \end{frame}
                  
-Overfull \vbox (3.52144pt too high) detected at line 229
- []
-
-[21
-
- <./imagenes/sanfransisco.png (PNG copy)>]
-<imagenes/sandiego.png, id=611, 1445.4pt x 820.06375pt>
-File: imagenes/sandiego.png Graphic file (type png)
-
-<use imagenes/sandiego.png>
-Package pdftex.def Info: imagenes/sandiego.png used on input line 240.
-(pdftex.def)             Requested size: 312.9803pt x 177.5741pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.240 \end{frame}
-                 
-Overfull \vbox (3.52144pt too high) detected at line 240
+Overfull \vbox (3.52144pt too high) detected at line 234
  []
 
 [22
 
+ <./imagenes/sanfransisco.png (PNG copy)>]
+<imagenes/sandiego.png, id=637, 1445.4pt x 820.06375pt>
+File: imagenes/sandiego.png Graphic file (type png)
+
+<use imagenes/sandiego.png>
+Package pdftex.def Info: imagenes/sandiego.png used on input line 245.
+(pdftex.def)             Requested size: 312.9803pt x 177.5741pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 \end{frame}
+                 
+Overfull \vbox (3.52144pt too high) detected at line 245
+ []
+
+[23
+
  <./imagenes/sandiego.png (PNG copy)>]
-<imagenes/correlacion.png, id=638, 514.92375pt x 115.18031pt>
+<imagenes/correlacion.png, id=664, 514.92375pt x 115.18031pt>
 File: imagenes/correlacion.png Graphic file (type png)
 
 <use imagenes/correlacion.png>
-Package pdftex.def Info: imagenes/correlacion.png used on input line 253.
+Package pdftex.def Info: imagenes/correlacion.png used on input line 258.
 (pdftex.def)             Requested size: 318.67078pt x 71.28273pt.
 
-Overfull \hbox (1.47493pt too wide) in paragraph at lines 253--253
+Overfull \hbox (1.47493pt too wide) in paragraph at lines 258--258
 [] 
  []
 
@@ -1642,77 +1644,75 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 \end{frame}
-                  [23
+l.258 \end{frame}
+                  [24
 
  <./imagenes/correlacion.png>]
-<imagenes/19.png, id=666, 1371.1225pt x 727.71875pt>
+<imagenes/19.png, id=692, 1371.1225pt x 727.71875pt>
 File: imagenes/19.png Graphic file (type png)
  <use imagenes/19.png>
-Package pdftex.def Info: imagenes/19.png used on input line 267.
+Package pdftex.def Info: imagenes/19.png used on input line 272.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.267 \end{frame}
+l.272 \end{frame}
                  
-Overfull \vbox (0.98505pt too high) detected at line 267
+Overfull \vbox (0.98505pt too high) detected at line 272
  []
 
-[24
+[25
 
  <./imagenes/19.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 275.
+LaTeX Font Info:    Try loading font information for U+msa on input line 280.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 275.
+LaTeX Font Info:    Try loading font information for U+msb on input line 280.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 275.
+line 280.
 
 (C:\Users\KEVINSTEVEN\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1ma
 thkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [25
+) [26
 
-] <imagenes/10.png, id=723, 1371.1225pt x 727.71875pt>
+] <imagenes/10.png, id=749, 1371.1225pt x 727.71875pt>
 File: imagenes/10.png Graphic file (type png)
 
 <use imagenes/10.png>
-Package pdftex.def Info: imagenes/10.png used on input line 289.
+Package pdftex.def Info: imagenes/10.png used on input line 294.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 \end{frame}
-                  [26
+l.294 \end{frame}
+                  [27
 
- <./imagenes/10.png>] [27
+ <./imagenes/10.png>] [28
 
 ]
-<imagenes/11.png, id=777, 1371.1225pt x 727.71875pt>
+<imagenes/11.png, id=803, 1371.1225pt x 727.71875pt>
 File: imagenes/11.png Graphic file (type png)
  <use imagenes/11.png>
-Package pdftex.def Info: imagenes/11.png used on input line 311.
+Package pdftex.def Info: imagenes/11.png used on input line 316.
 (pdftex.def)             Requested size: 284.52756pt x 151.00438pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.311 \end{frame}
-                  [28
+l.316 \end{frame}
+                  [29
 
- <./imagenes/11.png>] [29
-
-] [30
+ <./imagenes/11.png>] [30
 
 ] [31
 
@@ -1722,23 +1722,25 @@ l.311 \end{frame}
 
 ] [34
 
-]
-[35
+] [35
 
-] <imagenes/comparacion.png, id=989, 351.56343pt x 57.96657pt>
+]
+[36
+
+] <imagenes/comparacion.png, id=1016, 351.56343pt x 57.96657pt>
 File: imagenes/comparacion.png Graphic file (type png)
 
 <use imagenes/comparacion.png>
-Package pdftex.def Info: imagenes/comparacion.png used on input line 384.
+Package pdftex.def Info: imagenes/comparacion.png used on input line 389.
 (pdftex.def)             Requested size: 312.9803pt x 51.60422pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:Densidad}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.384 \end{frame}
-                  [36
+l.389 \end{frame}
+                  [37
 
- <./imagenes/comparacion.png>] [37
+ <./imagenes/comparacion.png>] [38
 
 ]
 \tf@nav=\write6
@@ -1750,15 +1752,15 @@ l.384 \end{frame}
 \tf@snm=\write8
 \openout8 = `"presentación tarea1.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
 
 ("presentación tarea1.aux"
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
 Package rerunfilecheck Info: File `"presentación tarea1".out' has not changed.
 
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1770,13 +1772,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 391.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
- 18054 strings out of 493334
- 342894 string characters out of 3139234
+ 18060 strings out of 493334
+ 342945 string characters out of 3139234
  418523 words of memory out of 3000000
- 21059 multiletter control sequences out of 15000+200000
+ 21063 multiletter control sequences out of 15000+200000
  10696 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,17n,57p,595b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1788,9 +1790,9 @@ onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb>
-Output written on "presentación tarea1.pdf" (37 pages, 2211206 bytes).
+Output written on "presentación tarea1.pdf" (38 pages, 2217398 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 1115 PDF objects out of 1200 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
