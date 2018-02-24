@@ -1,4 +1,5 @@
-library(readr)
+install.packages("readr")
+library("readr")
 cadata <- read_delim("~/GitHub/tarea_aplicada_1/cadata.txt", 
                      " ", escape_double = FALSE, trim_ws = TRUE)
 View(cadata)
@@ -114,6 +115,7 @@ summary(Regresion)$sigma^2
 
 #MAPAS
 install.packages("ggmap")
+library(ggmap)
 map <- get_map(location = "california, san diego", zoom = 7, maptype = "terrain")
 x11()
 posicion=ggmap(map)+geom_point(data=cadata,aes(x=cadata$Longitud,y=cadata$Latitud))
