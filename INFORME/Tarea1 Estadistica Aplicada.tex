@@ -1,4 +1,3 @@
-
 % -------------------------------------------------------------------------------------
 % Plantilla de un artículo para publicar en la Revista Colombiana de Estadística
 % *************************************************************************************
@@ -67,8 +66,8 @@ year = 2018]
 ]
 \author[firstname = Alejandro,
         surname = Vargas,
-        code = Código: ,
-        email = alejandro.vargas@correounivalle.edu.co
+        code = Código: 1525953 ,
+        email = jose.alejandro.vargas@correounivalle.edu.co
 ]
 \end{authors}
 % //// --------------------------------------------------------------------------------
@@ -190,7 +189,7 @@ Hogares  & 13 & 327.80 & 469.5 & 538.8 & 664.5 & 2538 & 328.173\\ \hline
 ~\\ En general con las gráficas concluimos que hay muchos datos atípicos, en algunas variables como lo son: ingreso mediano de las viviendas, el total de habitaciones, total de dormitorios, hogares y población.
 ~\\ Además los datos que corresponden a las variables hogares, población, dormitorios y habitaciones tienen densidades muy parecidas y los datos se comportan de una manera muy similar (lo que nos llevo a evaluar posteriormente la posible correlación entre estas) aunque igualmente presentan mucha variabilidad.
 
-~\\ Ubicamos las localizaciones en un mapa, con el software R, mas específicamente con la librería 'ggmap', para tener una idea geográfica de donde provenían nuestros 500 bloques muestreados, los resultados se aprecian en las siguientes dos gráficas:
+~\\ Ubicamos las localizaciones en un mapa, con el software \citeasnoun{R}, mas específicamente con la librería \cite{G}, para tener una idea geográfica de donde provenían nuestros 500 bloques muestreados, los resultados se aprecian en las siguientes dos gráficas:
 \begin{figure}[!htb]
   \centering
   \includegraphics[scale=1.2]{FigurasUV/sandiego.png}
@@ -266,6 +265,7 @@ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana
 \item $\beta_{5}$: Por cada unidad que aumente la variable población, el valor mediano de la casa disminuye en 1128.652 dolares.
 \item $\beta_{6}$: Por cada unidad que aumente la variable hogares, el valor mediano de la casa aumenta en 243.265 dolares.
 \end{itemize}
+
 % //// --------------------------------------------------------------------------------
 % -------------------------------------------------------------------------------------
 % Fin del cuerpo del documento
@@ -275,7 +275,7 @@ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana
 % las referencias bibliográficas del artículo utilizando el estilo bibliográfico BibTeX
 % "\referencias{.}"
 % **** --------------------------------------------------------------------------------
-    \bibliography{references}
+\bibliography{references}
 % //// --------------------------------------------------------------------------------
 % //// --------------------------------------------------------------------------------
     \appendix% !no modificar esta línea¡
