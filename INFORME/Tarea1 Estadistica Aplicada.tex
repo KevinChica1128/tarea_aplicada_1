@@ -191,7 +191,7 @@ Hogares  & 13 & 327.80 & 469.5 & 538.8 & 664.5 & 2538 & 328.173\\ \hline
 ~\\ En general con las gráficas concluimos que hay muchos datos atípicos, en algunas variables como lo son: ingreso mediano de las viviendas, el total de habitaciones, total de dormitorios, hogares y población.
 ~\\ Además los datos que corresponden a las variables hogares, población, dormitorios y habitaciones tienen densidades muy parecidas y los datos se comportan de una manera muy similar (lo que nos llevo a evaluar posteriormente la posible correlación entre estas) aunque igualmente presentan mucha variabilidad.
 
-~\\ Ubicamos las localizaciones en un mapa, con el software \citeasnoun{R}, mas específicamente con la librería \cite{G}, para tener una idea geográfica de donde provenían nuestros 500 bloques muestreados, los resultados se aprecian en las siguientes dos gráficas:
+~\\ Ubicamos las localizaciones en un mapa, con el software \citeasnoun{R}, mas específicamente con la librería 'ggmap' \cite{G}, para tener una idea geográfica de donde provenían nuestros 500 bloques muestreados, los resultados se aprecian en las siguientes dos gráficas:
 \begin{figure}[!htb]
   \centering
   \includegraphics[scale=1.2]{FigurasUV/sandiego.png}
@@ -226,10 +226,10 @@ Hogares  & -0.160498 & -0.144566 & 0.865276 & 0.988705 & 0.853918 & 1\\ \hline
 \end{tabular}
 \end{table}
 
-~\\ En la matriz anterior podemos ver que las primeras dos variables (Ingreso y edad) no tienen una correlación ni entre ellas ni con las demás, por lo cuál, se espera que ambas estén en el modelo final; todo lo contrario sucede con las restantes cuatro variables, todas ellas están correlacionadas en más del 80\% de forma lineal, por lo que esperamos que al menos una de ellas salga del modelo, ya que estaría explicando lo mismo que otra y generando una multicolinealidad en el modelo. Obtuvimos gráficas de puntos de todas las posibles combinaciones entre ellas (6 combinaciones posibles) y generamos el coeficiente de correlación de Spearman (este coeficiente no necesita supuestos acerca de la distribución de las variables, por lo tanto este es mas acertado que el de Pearson), aún asi, nos arrojó en su mayoria una correlación mayor del 85\% .
+~\\ En la matriz anterior podemos ver que las primeras dos variables (Ingreso y edad) no tienen una correlación ni entre ellas ni con las demás, por lo cuál, se espera que ambas estén en el modelo final; todo lo contrario sucede con las restantes cuatro variables, todas ellas están correlacionadas en más del 80\% de forma lineal, por lo que esperamos que al menos una de ellas salga del modelo, ya que estaría explicando lo mismo que otra y generando una multicolinealidad en el modelo. Obtuvimos gráficas de puntos de todas las posibles combinaciones entre ellas (6 combinaciones posibles) y generamos el coeficiente de correlación de Spearman (este coeficiente no necesita supuestos acerca de la distribución de las variables, por lo tanto este es mas acertado que el de Pearson), aún así, nos arrojó en su mayoría una correlación mayor del 85\% .
 
 \section{Selección de variables}
-~\\ Para obtener el mejor modelo posible, aparte del modelo completo (con todas las variables), utilizamos tres métodos de selección de variables, forward, backward y stepwise, los modelos obtenidos por estos métodos, los comparamos con respecto al $R^2_{ajustado}$ y el cuadrado medio del error ($CME=\hat{\sigma}^2$). Los modelos obtenidos fueron los siguientes:
+~\\ Para obtener el mejor modelo posible, aparte del modelo completo (con todas las variables), utilizamos tres métodos de selección de variables, forward, backward y stepwise por medio de \citeasnoun{R} con el paquete 'MASS' \cite{Ma}, los modelos obtenidos por estos métodos, los comparamos con respecto al $R^2_{ajustado}$ y el cuadrado medio del error ($CME=\hat{\sigma}^2$). Los modelos obtenidos fueron los siguientes:
 \begin{itemize}
 \item Modelo completo: $Y=57720.52+24261.20X_{1}+3443.94X_{2}+19.09X_{3}-67.72X_{4}-121.66X_{5}+315.92X_{6}$
 \item Forward: Este método nos arrojo el mismo modelo completo, es decir, no nos elimino ninguna variable.
@@ -254,9 +254,8 @@ $CME=\hat{\sigma}^2$      & 6724487923 & 6724487923 & 6722361839 & 6722361839 \\
 \end{tabular}
 \end{table}
 
-~\\ Según la tabla anterior, podemos concluir que el mejor modelo que logramos obtener para nuestros 500 bloques muestreados sin hacer transformación de variables, fue el generado por el método de selección 'Backward' y 'Stepwise' (ya que su $R^2_{ajustado}$ es minimamente mayor y su $CME=\hat{\sigma}^2$ es muchisimo menor), los cuales nos eliminaron la variable explicativa $X_{4}$: Total de dormitorios.
+~\\ Según la tabla anterior, podemos concluir que el mejor modelo que logramos obtener para nuestros 500 bloques muestreados sin hacer transformación de variables, fue el generado por el método de selección 'Backward' y 'Stepwise' (ya que su $R^2_{ajustado}$ es minimamente mayor y su $CME=\hat{\sigma}^2$ es muchísimo menor), los cuales nos eliminaron la variable explicativa $X_{4}$: Total de dormitorios.
 
-\subsection{Interpretación}
 ~\\ Nuestro modelo final fue: $Y=52921.688+24923.244X_{1}+3484.164X_{2}+17.588X_{3}-118.652X_{5}+243.265X_{6}$
 Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana de la vivienda, $X_{3}=$Total de habitaciones, $X_{5}=$Población, $X_{6}=$Hogares.
 \begin{itemize}
@@ -268,6 +267,10 @@ Donde: Y=Valor mediano de la casa, $X_{1}=$Ingreso mediano, $X_{2}=$Edad mediana
 \item $\beta_{6}$: Por cada unidad que aumente la variable hogares, el valor mediano de la casa aumenta en 243.265 dolares.
 \end{itemize}
 
+\nocite{Castro-03}
+\nocite{H}
+\nocite{Census}
+\nocite{readr}
 % //// --------------------------------------------------------------------------------
 % -------------------------------------------------------------------------------------
 % Fin del cuerpo del documento
